@@ -1,0 +1,116 @@
+/*top*/
+/*header*/
+.search-high,.search-my{float:left;line-height:34px;padding:0 13px;}
+.search-high{margin-left:2px;background:#f8fbfa;border:1px solid #dbe1dd;border-radius:5px;color:#855adb;font-size:16px;font-weight:bold;}
+.search-my{float:right;border:1px solid #dbe1dd;font-size:16px;color:#3e3e3e;}
+.search-high:hover,.search-my:hover{color:#855adb;}
+.search-my i{width:18px;height:17px;background-position:0;}
+.search-my:hover{background:#f8fbfa;color:#3e3e3e;text-decoration:none;}
+.search-tag{margin-top:3px;color:#bebebe;font-weight:bold;font-size:0.103rem;}
+.search-tag a{font-weight:normal;color:#855adb;}
+/*nav*/
+.lesson{float:left;width:238px;color:#fff;cursor: pointer}
+.lesson a{color:#fff;}
+.lesson-tit{padding-left:25px;font-size:16px;line-height:42px;font-weight:bold;background:#855adb;border:1px solid #9663ff;border-bottom:0;}
+.lesson .lesson-tit:hover{background:#855bdb;}
+.nav{font-size:.14rem;line-height:43px;font-weight:bold;}
+.nav a{margin-left:49px;}
+.nav a:hover,.nav a.on{color:#855adb;text-decoration: none}
+.lesson-con{background:#9663ff;display: none;position:absolute;width:238px;z-index:20;}
+.lesson-con-show{display: block!important}
+.lesson-item{clear:both; zoom:1;padding:10px 25px;border-top:1px solid #a478ff;}
+.lesson-item:first-child{border-top-color:#855adb;}
+.lesson-dl1{zoom:1;background:url(../images/arrow.png) no-repeat right center;}
+.lesson-dl1 dt{line-height:29px;font-size:14px; font-weight:bold;}
+.lesson-dl1 dd a{display:inline-block;	margin:0 3px; line-height:16px;font-size:12px;}
+/*展示更多*/
+.lesson-item-hover{position:relative; z-index:2;background-color:#6140a4;}
+.lesson-item-hover .lesson-dl1{position:relative; z-index:2;background: none}
+.lesson-more{display:none; position:absolute; left:238px; top:-30px;z-index:1; width:295px;padding:15px 30px 0  0px;background-color:rgba(101,100,99,.9);}
+.lesson-dl2{padding-bottom:15px;vertical-align: middle; }
+.lesson-dl2 dt{float:left; width:80px;padding-right:15px;text-align:right; font-size:14px; font-weight:bold;line-height:20px;background:url(../images/arrow.png) no-repeat right center;}
+.lesson-dl2 dd{ line-height:20px;overflow: hidden;margin-left:98px; _margin-left:70px;border-bottom:1px solid #78777a;padding-bottom:5px;}
+.lesson-dl2 dd a{display:block; float:left;margin-right:17px; word-break:keep-all; white-space:nowrap;font-size:12px;}
+/*bannner*/
+.banner{position:relative; width:100%;height:280px;overflow:hidden; z-index: 1; clear:both; margin: 0 auto;text-align:center;}
+.banner-btn ul {position:absolute; z-index:2; bottom:3px; left:0; width:100%; text-align:center;}
+.banner-btn li {width:14px; height:14px;border-radius:14px;margin:0 2px; display:inline-block;background:rgba(0, 0, 0, .7); cursor:pointer; font-size:0; line-height:0;  *zoom:1; *display:inline;}
+.banner-btn li.on {background:rgba(145, 99, 240, .8);}
+.banner_list {left: 50%; margin-left: -960px; position: absolute;width: 1920px;}
+/*footer*/
+.foot-main{border-top:1px solid #dce0dc;border-bottom:1px solid #dce0dc;}
+.foot-main dl{float:left;margin:.25rem 0;width:245px;}
+.foot-main dt{font-size:.189rem;}
+.foot-main dd span{color:#898989;}
+.foot-main dd{font-size:.14rem;margin-top:.07rem;}
+.foot-main .wechat{margin-top:.086rem;font-size:.155rem;font-weight:bold;width:152px;text-align: center}
+.foot-main .tel{font-size:.241rem;line-height:1;}
+.foot-main .date{font-size:.103rem;color:#898989;margin-top:0;padding-bottom: .04rem}
+@media (min-width: 1200px){.container{width:1000px;}
+.cart-bar{width:auto;}
+.cart-bar ul{width:1000px;margin:0 atuo;}}
+
+/*点课中心*/
+.dk-list{ padding:.25rem .172rem;}
+.dkCon-left{ border-right:.155rem solid #f0f2f1;}
+.dianke ul li{ padding-right:.25rem;}
+.dianke ul li p b{ margin-right:.34rem;} 
+.dianke ul li span a{ margin-right:.3rem;}
+.dk-list .dk-img img{ width:142px; height:108px; display:block;}
+.dk-list dl{ padding-left:.3rem;}
+.dk-list .dk-dd1{ line-height:30px;} 
+.dk-list .dk-dd2{ font-size:.22rem;}
+
+/*下载中心*/
+.study li{padding:.172rem .3rem; overflow:hidden;}
+
+/*子课程详情
+--------------------------------------------*/
+.intro-main{padding:30px;}
+.detail1{padding:10px 25px;}
+.detail7-con p{padding:.12rem .2rem;}
+.intro-lesson .box-t-b,.intro-comment .box-t-b,.lessonList-t,.lessonList a,.commentList li{padding-left:20px;padding-right:20px;}
+.lessonList-t i,.lessonList li i{width:58px;}
+.commentSet{width:60%;margin:0 auto}
+/*--------------------------------------------
+/*个人中心
+--------------------------------------------*/
+.zi-course-tab{ height:50px;}
+.course-catalog{ padding:.3rem .25rem;}
+.chapter-1{ background:#f8fbfa; padding:.14rem .25rem;}
+.chapter-1 li i{ margin-right:.39rem;}
+.course-evaluate{padding:0 .172rem 0 .32rem;}
+.evaluate-con{ margin:.34rem auto .4rem; width:60%;}
+
+.news-con{ padding:.172rem; }
+.ziliao-form{ width:60%;}
+/*--------------------------------------------
+/*结算中心
+--------------------------------------------*/
+.makeod-list,.makeorder dl,.makeod-btn,.payod-info{padding:20px 30px;}
+.payod-bank {padding:0 42px;}
+.payod-tit{padding-left:65px;}
+.payod-bank li img{border:1px solid #dbe1dd;margin-left:3px;width:146px;height:43px;}
+/*--------------------------------------------
+/*学习中心
+--------------------------------------------*/
+.myuser{position:relative;height:330px;}
+.myuserbg{background:url(../images/userbg.jpg) no-repeat center;height:330px;position:absolute;width:100%;}
+.mylesson-pic img{width:140px;height:108px;}
+.mylesson li{padding:30px 0;}
+.lesson-btn{margin-top:20px;text-align:right;margin-left:0;}
+.mylesson .btn{width:108px;text-align:center;line-height:45px;height:45px;display:inline-block;}
+/*--------------------------------------------
+/*下载中心
+--------------------------------------------*/
+.downcon-left{border-right:.2rem solid #f0f2f1;}
+/*--------------------------------------------
+/*课程学习
+--------------------------------------------*/
+.ask-list{height:420px;overflow-y:auto;}
+.player-friend{height:470px;overflow-y:auto;}
+.sectionlist li:nth-child(2n+1){border-right:1px solid #f0f2f1;}
+.sectionlist li:nth-child(2n){border-left:1px solid #f0f2f1;}
+
+/*.tabCon{ padding:0 .24rem;}*/
+.tabcon1 dl{ padding-top:.12rem;}
